@@ -1,5 +1,5 @@
 # Custom Industrial Control Widget
-Full custom Industrial shape widget for control and visualization process
+indicator.py is a full custom Industrial shape widget for control and visualization process
 
 ## Brief
 This script encapsulate diferent control widgets with multiple inheritance.
@@ -10,11 +10,12 @@ set_data(data) will fill the information on data.
   
 Also this group classes were created with porpose of work in multithreading joined to a Modbus communication engine.
 ## Todo:
-  +Implement threaded modbus communications engine.
-  +Implement Save data in a .json file and upload data file and parse to custom widgets.
-  +Implement access control slot for advanced settings control access.
-  +Implement Bar gauge needle animation.
-  +Implement alarms settings and needle visualization.
+  + Complete API documentation.
+  + Implement threaded modbus communications engine.
+  + Implement Save data in a .json file and upload data file and parse to custom widgets.
+  + Implement access control slot for advanced settings control access.
+  + Implement Bar gauge needle animation.
+  + Implement alarms settings and needle visualization.
   
 ## Features
 ## Main Tab
